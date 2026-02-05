@@ -1,0 +1,39 @@
+h1 {
+    color: aqua;
+    background-color: #fb7d53;
+}
+
+h2 {
+    color: purple;
+    background-color: mediumseagreen;
+}
+
+h3{
+    color: #ff92e0;
+    background-color: blue;
+}
+
+
+/*Links*/
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}   
+
+
+.turnblue {
+    color: blue;
+}
+
+#div1 {
+    background-color: pink;
+}
