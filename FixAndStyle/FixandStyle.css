@@ -1,0 +1,56 @@
+h1 {
+    color: white;
+}
+
+h4 {
+    color: yellow;
+    background-color: green;
+}
+
+
+.blueText {
+    color: blue;
+}
+
+.yellowBG {
+    background-color: yellow;
+}
+
+.redText {
+    color: red;
+}
+
+.limeBG {
+    background-color: #9bff9b;
+}
+
+.orangeText {
+    color: orange;
+}
+
+.purpleBG {
+    background-color: #94a1ff;
+}
+
+
+a {
+  color: green;
+  text-decoration: none;
+}
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: green;
+}
+
+a:active {
+  color: #00ffff;
+}
+
+a:hover {
+  color: red;
+  text-decoration: underline;
+}   
