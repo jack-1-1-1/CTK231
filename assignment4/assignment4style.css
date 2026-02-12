@@ -1,0 +1,67 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(tileset.bricks.jpg);
+}
+
+main {
+    background-color: #dddddd;
+}
+
+
+h1 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h2 {
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+h3{
+    color: orange;
+    font-style: italic;
+    font-weight: normal;
+}
+
+
+/*Links*/
+a {
+  color: red;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+}
+
+a:hover {
+  color: yellow;
+  text-decoration: underline;
+}   
+
+
+.turnblue {
+    color: blue;
+}
+
+#div1 {
+    background-color: pink;
+}
+
+.centertext {
+    text-align: center;
+}
+
+.justifytext {
+    text-align: justify;
+}
+
+img {
+    border: 6px solid black;
+    padding: 20px;
+    background-color: yellow;
+}
+
