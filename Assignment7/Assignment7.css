@@ -1,0 +1,182 @@
+body {
+    background-color: #999999;
+}
+
+h1 {
+    color: skyblue;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    font-style: italic;
+}
+
+h2 {
+    color: blue;
+    margin-top: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    border-bottom: 3px solid blue;
+    padding-bottom: 10px;
+}
+
+header {
+    grid-column: span 12;
+     border: 0px solid black;
+     background-image: linear-gradient(to bottom, #5ec1d7, #00ace5, #0093f4, #0074f9, #1249eb);
+     color: white;
+     padding: 1em;
+}
+
+header a {
+    text-decoration: none;
+    color: skyblue;
+}
+
+header a:hover {
+    color: white;
+}
+
+nav {
+    grid-column: span 12;
+    font-family: Helvetica, Arial, sans-serif;
+    background-image: linear-gradient(to bottom, #5ec1d7, #00ace5, #0093f4, #0074f9, #1249eb);
+    border-bottom: 5px solid blue;
+    border-top: 3px solid blue;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+nav li {
+    border: 0px solid black;
+    border-right: 5px solid blue;
+    width: 25%;
+    padding: 0px;
+    display: inline-block;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+nav li a {
+    color: lightblue;
+    font-weight: bold;
+    text-decoration: none;
+    display: block;
+    padding: 20px;
+}
+
+nav li a:hover {
+    color: white;
+    background-color: blue;
+}
+
+aside {
+    grid-column: span 3;
+    background-color: lightblue;
+    padding: 1em;
+}
+
+main {
+    grid-column: span 9;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+main a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
+
+footer {
+    grid-column: span 12;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border-top: 5px solid blue;
+
+}
+
+#wrapper {
+    margin: 1em auto;
+    padding: 0;
+    background-color: white;
+    border: 5px solid blue;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+.floatimg {
+    float: left;
+    border: 3px solid blue;
+    padding: 0px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.floatimgR {
+    float: right;
+    border: 3px solid blue;
+    padding: 0px;
+    margin-right: 1em;
+    margin-bottom: 1em;
+}
+
+.gbold {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    text-align: justify;
+}
+
+#Rob {
+    grid-column: span 33%;
+    margin: 1em;
+    padding-right: 0;
+    display: inline;
+}
+
+#Dana {
+    grid-column: span 33%;
+    margin: 1em;
+    display: inline;
+}
+
+#Crash {
+    grid-column: span 33%;
+    margin: 1em;
+    display: inline;
+}
+
+#Gallery {
+    grid-column: span 9;
+    margin-right: 1em;
+    margin-left: 1em;
+    padding: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+}
+
+#Gallery a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+#Gallery a:hover {
+    text-decoration: underline;
+    color: blue;
+    font-weight: bold;
+}
